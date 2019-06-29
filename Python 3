@@ -1,0 +1,8 @@
+import random
+coin_flip = random.randint(1,2)
+
+if coin_flip == int("1") :
+	print('The coin is heads')
+if coin_flip == int("2") :
+	print('The coin is tails')
+	
